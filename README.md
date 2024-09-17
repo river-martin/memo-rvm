@@ -1,5 +1,7 @@
 # memo-rvm
 
+A Python implementation of a Pike/Cox-style backtracking regex virtual machine with a (buggy) memoization instruction.
+
 ## Installation
 
 ```Bash
