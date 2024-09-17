@@ -1,0 +1,16 @@
+memo 0
+epsset 0
+save 0
+split 4, 8
+split 5, 6
+char a
+memo 1
+jmp 9
+char b
+memo 2
+save 1
+split 12, 14
+epschk 0
+jmp 0
+epspop
+match

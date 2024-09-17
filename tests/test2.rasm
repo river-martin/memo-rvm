@@ -1,0 +1,23 @@
+memo 0
+epsset 0
+save 0
+memo 1
+epsset 8
+save 2
+split 7, 11
+split 8, 9
+char a
+memo 2
+jmp 12
+char b
+memo 3
+save 3
+split 15, 17
+epschk 8
+jmp 3
+epspop
+save 1
+split 20, 22
+epschk 0
+jmp 0
+match

@@ -1,0 +1,14 @@
+[build-system]
+requires = ['hatchling']
+build-backend = 'hatchling.build'
+
+[project]
+version='2024'
+name = 'memo_rvm'
+description = 'A Python implementation of a regex virtual machine with memoization'
+readme = 'README.md'
+dependencies = ['pytest', 'numpy']
+requires-python = '>= 3.8'
+
+[tool.hatch.build.targets.wheel]
+packages=['src/memo_rvm']
